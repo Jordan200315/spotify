@@ -1,0 +1,100 @@
+body {
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover; 
+    color: #ffffff; 
+    font-family: 'Roboto', sans-serif; 
+    margin: 0;
+    padding: 20px;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background-color: rgba(28, 28, 28, 0.8); 
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7); 
+}
+
+
+h1 {
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.audioPlayerContainer {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+audio {
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    background: #1db954; 
+}
+
+
+.list-group-item {
+    background-color: rgba(39, 39, 39, 0.9); 
+    border: none;
+    color: #fff;
+    margin-bottom: 10px;
+    transition: background 0.3s ease;
+    border-radius: 5px;
+}
+
+
+.list-group-item:hover {
+    background-color: rgba(60, 60, 60, 0.9); 
+}
+
+
+.playBtn {
+    background-color: #1db954; 
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    transition: background 0.3s ease;
+}
+
+
+.playBtn:hover {
+    background-color: #1ed760; 
+}
+
+
+.controls button {
+    background-color: #1db954; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 30px; 
+    margin: 5px;
+    transition: background 0.3s ease;
+}
+
+
+.controls button:hover {
+    background-color: #1ed760; 
+}
+
+
+.btn-primary {
+    background-color: #1db954; 
+    border: none;
+    font-weight: 500;
+}
+
+
+.btn-primary:hover {
+    background-color: #1ed760; 
+}
